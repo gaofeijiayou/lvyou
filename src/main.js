@@ -3,9 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import './assets/style/border.css'
-import './assets/style/reset.css'
+import 'style/border.css'
+import 'style/reset.css'
+import './assets/ico/iconfont.css'
+
 import fastClick from 'fastclick'
+
+//npm install less less-loader --save-dev
+// {
+//   test: /\.less$/,
+//   loader: "style-loader!css-loader!less-loader",
+// },
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 /* eslint-disable no-new */

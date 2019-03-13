@@ -12,5 +12,5 @@ export default new Router({
       component: vhome
     },
   ],
-  mode: 'history',
+  mode: 'history'
 })

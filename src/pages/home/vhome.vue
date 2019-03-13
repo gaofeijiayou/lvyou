@@ -1,8 +1,12 @@
 <template>
-    <h3>home</h3>
+    <vhead></vhead>
 </template>
 <script>
+import vhead from "./zujian/vhead";
 export default {
-  name: 'vhome'
+  name: 'vhome',
+  components:{
+    vhead
+  }
 }
 </script>
