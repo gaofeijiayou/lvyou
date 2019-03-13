@@ -6,9 +6,11 @@ import router from './router'
 import 'style/border.css'
 import 'style/reset.css'
 import './assets/ico/iconfont.css'
-
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 import fastClick from 'fastclick'
-
+//轮播图
+//npm install vue-awesome-swiper --save
 //npm install less less-loader --save-dev
 // {
 //   test: /\.less$/,
@@ -16,6 +18,8 @@ import fastClick from 'fastclick'
 // },
 Vue.config.productionTip = false
 fastClick.attach(document.body)
+
+Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
