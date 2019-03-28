@@ -48,7 +48,6 @@ export default {
             right:.2rem;
         }
         input{
-
             width: 100%;
             height:.64rem;
             margin-top: .12rem;
@@ -56,20 +55,17 @@ export default {
             padding-left:.50rem;
         }
     }
+
     .test{
         width: 50px;;
         height: 20px;
         background-color: red;
     }
 
-    .head_right{
-       
+    .head_right{  
         text-align:center;
         width: 1.5rem;
         margin-right: .1rem;
     }
-
-
 }
 </style>
-

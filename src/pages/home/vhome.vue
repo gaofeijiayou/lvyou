@@ -2,18 +2,20 @@
     <div>
       <vhead></vhead>
       <vswiper></vswiper>
-      <div>test</div>
+      <vfeilei></vfeilei>
     </div>
-    
 </template>
 <script>
-import vhead from "./zujian/vhead"
-import vswiper from "./zujian/vswiper";
+import vhead from './zujian/vhead'
+import vswiper from './zujian/vswiper'
+import vfeilei from './zujian/vfeilei'
 export default {
   name: 'vhome',
-  components:{
+  components: {
     vhead,
-    vswiper
+    vswiper,
+    vfeilei
   }
 }
 </script>
+
