@@ -24,6 +24,7 @@ export default {
 <style lang="less" scoped>
 @import url('~style/quanju.less');
 .head{
+    
     width: 100%;
     height: .86rem;
     line-height: .86rem;
