@@ -5,6 +5,7 @@
       <vfeilei></vfeilei>
       <vremen></vremen>
       <vtest></vtest>
+      <vxihuan></vxihuan>
     </div>
 </template>
 <script>
@@ -13,6 +14,7 @@ import vswiper from './zujian/vswiper'
 import vfeilei from './zujian/vfeilei'
 import vremen from './zujian/vremen'
 import vtest from './zujian/vtest'
+import vxihuan from './zujian/vxihuan'
 export default {
   name: 'vhome',
   components: {
@@ -20,7 +22,7 @@ export default {
     vswiper,
     vfeilei,
     vremen,
-
+    vxihuan,
   
   }
 }
